@@ -88,18 +88,6 @@ Backend docs:
 - photo_id
 - vector
 
-## Suggested capstone upgrades
-
-1. Replace SQLite JSON vector storage with **pgvector/PostgreSQL**
-2. Replace keyword-derived structured fields with **LLaVA or GPT-4o vision JSON extraction**
-3. Add **user login and per-user albums**
-4. Add **tag editing, delete, and favorites**
-5. Add **evaluation pipeline**:
-   - Recall@K
-   - Precision@K
-   - mAP
-   - query case study analysis
-
 ## Important note
 
 This codebase is a complete working prototype, but the first run requires model downloads from Hugging Face.
